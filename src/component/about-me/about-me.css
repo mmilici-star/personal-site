@@ -1,0 +1,154 @@
+.About-Me-Component {
+    margin: 2% 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.About-Me-Div {
+    display: flex;
+    align-items: center;
+}
+
+.cartoon-img {
+    height: auto;
+    width: 450px;
+    ;
+}
+
+.Bio {
+    padding-left: 8%;
+    font-size: 2.5rem;
+}
+
+.header-tag {
+    text-align: center;
+    font-size: 7rem;
+    padding-bottom: 5%;
+}
+
+p {
+    padding-bottom: 1.5%;
+}
+
+@media screen and (max-width: 1470px) {
+    .About-Me-Component {
+        margin: 2% 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+    }
+    .About-Me-Div {
+        display: flex;
+        align-items: center;
+    }
+    .cartoon-img {
+        height: auto;
+        width: 350px;
+        ;
+    }
+    .Bio {
+        padding-left: 8%;
+        font-size: 2.5rem;
+    }
+    .header-tag {
+        text-align: center;
+        font-size: 7rem;
+        padding-bottom: 5%;
+    }
+    p {
+        padding-bottom: 1.5%;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .About-Me-Component {
+        margin: 2% 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+    }
+    .About-Me-Div {
+        display: flex;
+        align-items: center;
+    }
+    .cartoon-img {
+        height: auto;
+        width: 350px;
+        ;
+    }
+    .Bio {
+        padding-left: 8%;
+        font-size: 2.4rem;
+    }
+    .header-tag {
+        text-align: center;
+        font-size: 6rem;
+        padding-bottom: 5%;
+    }
+    p {
+        padding-bottom: 1.5%;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    .About-Me-Component {
+        margin: 2% 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+        text-align: center;
+    }
+    .About-Me-Div {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .cartoon-img {
+        height: auto;
+        width: 350px;
+        padding-bottom: 5%;
+    }
+    .Bio {
+        font-size: 2.4rem;
+    }
+    .header-tag {
+        text-align: center;
+        font-size: 6rem;
+        padding-bottom: 5%;
+    }
+    p {
+        padding-bottom: 1.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .About-Me-Component {
+        margin: 2% 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+        text-align: center;
+    }
+    .About-Me-Div {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .cartoon-img {
+        height: auto;
+        width: 250px;
+        padding-bottom: 5%;
+    }
+    .Bio {
+        font-size: 1.5rem;
+    }
+    .header-tag {
+        text-align: center;
+        font-size: 6rem;
+        padding-bottom: 5%;
+    }
+    p {
+        padding-bottom: 1%;
+    }
+}
