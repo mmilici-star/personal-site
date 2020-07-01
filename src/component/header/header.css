@@ -1,0 +1,161 @@
+.Animated-Text,
+.Header-Name {
+    color: white;
+    font-size: 12rem;
+}
+
+
+/* This goes after the animated-test and heder-name in order to reduce lines */
+
+.Animated-Text {
+    font-size: 3.5rem;
+}
+
+.Header-Name-Animated {
+    position: relative;
+    left: 8%;
+}
+
+.Header-div {
+    margin: 2% 10%;
+    padding-top: 5%;
+    ;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Milici-Profile-Pic {
+    background: #e6e7ed;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    border: 3px solid white;
+}
+
+.Typical {
+    color: blue;
+}
+
+@media screen and (max-width: 1470px) {
+    .Animated-Text,
+    .Header-Name {
+        color: white;
+        font-size: 8.5rem;
+    }
+    /* This goes after the animated-test and heder-name in order to reduce lines */
+    .Animated-Text {
+        font-size: 2.7rem;
+    }
+    .Header-Name-Animated {
+        position: relative;
+        left: 6%;
+    }
+    .Header-div {
+        margin: 5% 7%;
+        display: flex;
+        align-items: center;
+    }
+    .Milici-Profile-Pic {
+        background: #e6e7ed;
+        border-radius: 50%;
+        height: 450px;
+        width: 450px;
+        border: 3px solid white;
+    }
+    .Typical {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .Animated-Text,
+    .Header-Name {
+        color: white;
+        font-size: 7.5rem;
+    }
+    /* This goes after the animated-test and heder-name in order to reduce lines */
+    .Animated-Text {
+        font-size: 2.7rem;
+    }
+    .Header-Name-Animated {
+        position: relative;
+        left: 6%;
+    }
+    .Header-div {
+        margin: 5% 7%;
+        display: flex;
+        align-items: center;
+    }
+    .Milici-Profile-Pic {
+        background: #e6e7ed;
+        border-radius: 50%;
+        height: 450px;
+        width: 450px;
+        border: 3px solid white;
+    }
+    .Typical {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .Animated-Text,
+    .Header-Name {
+        color: white;
+        font-size: 7.9rem;
+    }
+    /* This goes after the animated-test and heder-name in order to reduce lines */
+    .Animated-Text {
+        font-size: 3rem;
+    }
+    .Header-Name-Animated {
+        position: static;
+    }
+    .Header-div {
+        margin: 5% 7%;
+        display: block;
+        text-align: center;
+    }
+    .Milici-Profile-Pic {
+        background: #e6e7ed;
+        border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        border: 3px solid white;
+    }
+    .Typical {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Animated-Text,
+    .Header-Name {
+        color: white;
+        font-size: 7.9rem;
+    }
+    /* This goes after the animated-test and heder-name in order to reduce lines */
+    .Animated-Text {
+        font-size: 3rem;
+    }
+    .Header-Name-Animated {
+        position: static;
+    }
+    .Header-div {
+        margin: 5% 7%;
+        display: block;
+        text-align: center;
+    }
+    .Milici-Profile-Pic {
+        background: #e6e7ed;
+        border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        border: 3px solid white;
+    }
+    .Typical {
+        color: blue;
+    }
+}
