@@ -1,15 +1,15 @@
 import React from "react";
-import WorkCard from "./cards";
-import workExperiences from "./Resume-Detail";
-
-import Education from "./Education";
-import EducationExperiences from "./Education-Detail";
+import WorkCard from "./resume/work-component";
+import workExperiences from "./resume/work-experiences";
+import Education from "./education/education";
+import EducationExperiences from "./education/education-detail";
+import ResumeCSS from "./work-experience.css";
 
 function Resume() {
 	return (
-		<div className="">
-			<h1 className="header-tags">Work Experience</h1>
-			<div className="testing1">
+		<div className="Resume-Div row">
+			<div className="Work-Experiences-Div column">
+				<h1 className="header-tag">Work Experience</h1>
 				<div>
 					{workExperiences.map((workExperience) => {
 						return (
@@ -23,10 +23,10 @@ function Resume() {
 					})}
 				</div>
 			</div>
-			<div className="">
-				<div>
-					<h1 className="header-tags">Education</h1>
 
+			<div className="Education-Div column">
+				<h1 className="header-tag">Education</h1>
+				<div>
 					{EducationExperiences.map((EducationExperience) => {
 						return (
 							<Education

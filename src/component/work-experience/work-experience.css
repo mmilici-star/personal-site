@@ -1,0 +1,25 @@
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.header-tag {
+    text-align: center;
+    font-size: 7rem;
+    padding-bottom: 5%;
+}
+
+.Resume-Div {
+    color: white;
+}
+
+.Work-Experiences-Div {
+    width: 30%;
+}
+
+.Education-Div {
+    width: 30%;
+}

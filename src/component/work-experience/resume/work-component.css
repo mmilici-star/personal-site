@@ -1,0 +1,24 @@
+.Company {
+    margin: 0;
+}
+
+.Company-Time {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.subtitle {
+    margin-right: 2%;
+}
+
+.work-experience-card {
+    width: 50%;
+    margin: auto;
+}
