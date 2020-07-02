@@ -23,3 +23,9 @@
 .Education-Div {
     width: 30%;
 }
+
+@media screen and (max-width: 1146px) {
+    .column {
+        width: 100%;
+    }
+}
