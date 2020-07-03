@@ -1,8 +1,9 @@
 import React from "react";
+import NavbarCSS from "./navbar.css";
 
 function Navbar() {
 	return (
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-div">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button

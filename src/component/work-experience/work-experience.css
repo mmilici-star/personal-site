@@ -4,6 +4,7 @@
 
 .row {
     display: flex;
+    margin: 1% 5%;
 }
 
 .header-tag {
@@ -14,14 +15,8 @@
 
 .Resume-Div {
     color: white;
-}
-
-.Work-Experiences-Div {
-    width: 30%;
-}
-
-.Education-Div {
-    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1146px) {
